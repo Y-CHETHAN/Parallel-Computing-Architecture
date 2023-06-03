@@ -1,4 +1,4 @@
-# GPU based Vector Summation
+# GPU Based Vector Summation
 i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile and run it. Compare the result with the execution confi guration of block.x = 1024. Try to explain the difference and the reason.
 <br>
 <br>ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel to let each thread handle two elements. Compare the results with other execution confi gurations.
@@ -49,5 +49,8 @@ Note: You can modify the code to experiment with different vector sizes, block d
 ### 2- 
 ### Block size = 256. Two Threads.
 ![image](https://user-images.githubusercontent.com/65499285/235474812-97ac4808-6fd8-4b47-a0b0-656e6d1c94f3.png)
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Result:
 The result of the experiment will be a comparison of the execution times and results obtained from different execution configurations. This comparison will help determine the most efficient execution configuration for PCA-GPU-based vector summation.
