@@ -20,6 +20,7 @@ The aim of this experiment is to compare the performance of different matrix tra
 
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/65657470-fbdb-4c1c-881a-2b1bd6eb1e97)
 
+<br><br><br><br><br>
 
 ## Result:
 The experiment aims to compare the performance of different matrix transposition techniques using shared memory in CUDA. By measuring the execution time of each implementation, we can identify the most efficient technique for matrix transposition.
