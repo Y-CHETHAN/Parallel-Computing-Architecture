@@ -27,8 +27,6 @@ Follow these steps to compare float and integer calculations on the GPU and host
 
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/dee5a19d-b22f-4b3b-a35b-3d959d22cc1a)
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
-
 ## Result:
 The program prints the device information, matrix size, and the execution time for matrix initialization, matrix addition on the host, matrix addition on the device, and memory transfer. Finally, the program prints whether the results from the host and the device match or not. The output of the program provides insights into the performance of matrix addition on the host and the device, which can be used for further optimization.
 Here, the performance indicates that the performance is slightly better when float values are used. Thus, float variables can be opted for better performance.
