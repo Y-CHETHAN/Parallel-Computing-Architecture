@@ -18,7 +18,7 @@ The aim of this project is to demonstrate how to perform matrix multiplication u
 ## Output:
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/b5d5a596-ca8c-4aab-be1e-82acb796476a)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Result:
 The result of this project is a comparison of the performance of the CPU and GPU implementations of matrix multiplication using CUDA. The elapsed time for each implementation is printed to the console.
