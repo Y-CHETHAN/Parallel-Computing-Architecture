@@ -6,27 +6,37 @@ i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile 
 ## Aim:
 To explore the differences between the execution configurations of PCA-GPU-based vector summation.
 
+
 ## Procedure:
-i) Using the program sumArraysOnGPU-timer.cu, set the block.x = 1023. Recompile the program and execute it. Then, set the execution configuration of block.x = 1024 and recompile the program. Finally, compare the results obtained from the two execution configurations.
-<br>
-<br>
-ii) Refer to sumArraysOnGPU-timer.cu, and set block.x = 256. Create a new kernel that allows each thread to handle two elements of the vector. Execute the program and compare the results obtained from this execution configuration with those obtained from other execution configurations.
-```c
-__global__ void sumArraysOnGPU(float* A, float* B, float* C, const int N)
-{
-    int i = blockIdx.x * blockDim.x * 2 + threadIdx.x;
 
-    if (i < N)
-    {
-        C[i] = A[i] + B[i];
-        if (i + blockDim.x < N)
-        {
-            C[i + blockDim.x] = A[i + blockDim.x] + B[i + blockDim.x];
-        }
-    }
-}
+1. The program will start executing, and you will see the name of the device being used printed on the console.
 
-```
+2. The vector size is set to `2^24`, which corresponds to 16,777,216 elements. This can be modified by changing the `nElem` variable in the code.
+
+3. The program will allocate memory for the host arrays `h_A`, `h_B`, `hostRef`, and `gpuRef` using `malloc()`.
+
+4. Random values will be generated and assigned to the host arrays `h_A` and `h_B` using the `initialData()` function.
+
+5. The `sumArraysOnHost()` function will be called to perform vector addition on the host CPU. The result will be stored in the `hostRef` array.
+
+6. Memory will be allocated on the GPU for the device arrays `d_A`, `d_B`, and `d_C` using `cudaMalloc()`.
+
+7. The data from the host arrays `h_A` and `h_B` will be copied to the corresponding device arrays `d_A` and `d_B` using `cudaMemcpy()`.
+
+8. The kernel function `sumArraysOnGPU()` will be invoked on the GPU using the specified grid and block dimensions. The grid dimensions are calculated based on the number of elements and the block dimensions.
+
+9. The GPU execution time will be measured using the `seconds()` function and printed on the console.
+
+10. The device array `d_C` will be copied back to the host array `gpuRef` using `cudaMemcpy()`.
+
+11. The `checkResult()` function will be called to compare the results of the host and device arrays and check if they match.
+
+12. Finally, the device memory and host memory will be freed using `cudaFree()` and `free()` respectively.
+
+13. The program will terminate, and you will see the result of the comparison between the host and device arrays printed on the console.
+
+Note: You can modify the code to experiment with different vector sizes, block dimensions, or kernel configurations to observe their impact on performance and correctness.
+
 ## Output:
 ### 1-
 ### Block size = 1023
