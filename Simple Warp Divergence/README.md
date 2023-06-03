@@ -10,7 +10,7 @@ The experiment follows the following steps:
 3. Launch the `reduceUnrolling16` kernel, which performs reduction using 16 data blocks per thread.
 4. Compare the results obtained from both kernels.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Output:
 The program outputs the results of the reduction performed by each kernel. Specifically, it displays the final reduced value obtained from the `reduceUnrolling8` kernel and the `reduceUnrolling16` kernel.
