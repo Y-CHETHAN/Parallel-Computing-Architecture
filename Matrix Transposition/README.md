@@ -194,4 +194,5 @@ int main()
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/65657470-fbdb-4c1c-881a-2b1bd6eb1e97)
 
 ## Result:
+Using the shared memory for the computation has provided slightly better results with the elapsed time of 0.04979 seconds in the GPU.
 Thus, the performance of different matrix transposition implementations using CUDA has been compared successfully.
