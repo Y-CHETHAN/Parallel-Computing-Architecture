@@ -218,4 +218,5 @@ int main(int argc, char** argv)
 ![image](https://user-images.githubusercontent.com/65499285/235474812-97ac4808-6fd8-4b47-a0b0-656e6d1c94f3.png)
 
 ## Result:
+The block size 1023 performs better in the GPU with an elpased time of 0.003 seconds, and the block size 1024 shows better results in the host with an elapsed time of 0.019 seconds. Using a block size of 256 and two threads simultaneously has provided the best results in the GPU with an elapsed of 0.0019 seconds.
 Thus, the differences between the execution configurations of PCA-GPU-based vector summation has been explored successfully.
