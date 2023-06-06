@@ -1,7 +1,7 @@
 # Matrix Addition With Unified Memory
 
 ## Aim:
-To demonstrate matrix addition using CUDA programming with unified memory.
+To perform matrix addition using CUDA programming with unified memory.
 
 ## Procedure:
 1. Allocate unified memory for matrices A, B, and C.
@@ -202,4 +202,4 @@ int main(int argc, char** argv)
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/eb8a8c46-1e57-4b60-be1f-85b0aa6f39c9)
 
 ## Result:
-Thus, matrix addition using CUDA programming with unified memory has been demonstrated successfully.
+Thus, matrix addition using CUDA programming with unified memory has been performed successfully.
