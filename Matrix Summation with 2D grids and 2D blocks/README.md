@@ -293,4 +293,5 @@ int main()
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/dee5a19d-b22f-4b3b-a35b-3d959d22cc1a)
 
 ## Result:
+The host took 0.0038 seconds to complete it's computation, while the GPU outperforms the host and completes the computation in 0.000197 seconds for float variables and 0.000212 seconds for integer variables. Therefore, float variables in the GPU will result in the best possible result.
 Thus, matrix summation using 2D grids and 2D blocks has been performed successfully.
