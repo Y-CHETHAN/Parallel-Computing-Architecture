@@ -49,4 +49,4 @@ Note: You can modify the code to experiment with different vector sizes, block d
 ![image](https://user-images.githubusercontent.com/65499285/235474812-97ac4808-6fd8-4b47-a0b0-656e6d1c94f3.png)
 
 ## Result:
-The result of the experiment will be a comparison of the execution times and results obtained from different execution configurations. This comparison will help determine the most efficient execution configuration for PCA-GPU-based vector summation.
+Thus, the differences between the execution configurations of PCA-GPU-based vector summation has been explored.
