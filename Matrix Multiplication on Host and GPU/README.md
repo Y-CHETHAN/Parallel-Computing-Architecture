@@ -143,4 +143,5 @@ int main() {
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/b5d5a596-ca8c-4aab-be1e-82acb796476a)
 
 ## Result:
+Using 64 blocks and 16 threads per block, the host took 2787.75 seconds and the GPU took 51.079 seconds for the matrix multiplication operation, and the GPU's performance is highly preferred.
 Thus, matrix multiplication using CUDA and comparing the performance of the CPU and GPU implementation has been performed successfully.
