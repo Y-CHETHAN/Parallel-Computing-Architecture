@@ -202,4 +202,5 @@ int main(int argc, char** argv)
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/eb8a8c46-1e57-4b60-be1f-85b0aa6f39c9)
 
 ## Result:
+The initialization process was completed in 2.85 seconds, and the matrix addition took 0.052 seconds in the host, and 0.004 seconds in the GPU and provides better performance among the host and GPU.
 Thus, matrix addition using CUDA programming with unified memory has been performed successfully.
