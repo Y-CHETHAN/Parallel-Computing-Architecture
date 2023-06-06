@@ -22,8 +22,6 @@ To perform matrix summation using 2D grids and 2D blocks.
 16. Free the memory allocated for the input and output matrices on the host.
 17. Reset the device.
 
-<br><br><br><br><br><br>
-
 ## Program:
 ```cuda
 #include <cuda_runtime.h>
