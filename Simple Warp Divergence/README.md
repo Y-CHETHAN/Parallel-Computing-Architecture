@@ -176,8 +176,6 @@ int main()
 
 ![image](https://github.com/Marinto-Richee/Parallel-Computing-Architecture/assets/65499285/2d862570-2d14-4774-b3b6-a914dfc56252)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 ## Result:
 The performance metrics show that the `reduceUnrolling16` provide better results with 0.035 ms compared to the counterpart which took 0.047 ms. 
 Thus, the performance of two CUDA kernels, `reduceUnrolling8` and `reduceUnrolling16` has been compared successfully.
