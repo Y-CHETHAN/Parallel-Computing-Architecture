@@ -206,7 +206,7 @@ int main(int argc, char** argv)
     return(0);
 }
 ```
-<br><br><br><br><br><br><br>
+<br><br><br><br>
 
 ## Output:
 ### 1-
