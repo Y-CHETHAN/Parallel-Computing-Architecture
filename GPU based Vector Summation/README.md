@@ -35,8 +35,8 @@ To explore the differences between the execution configurations of PCA-GPU-based
 13. The program will terminate, and the result of the comparison between the host and device arrays are printed on the console.
 
 ## Program:
-```
-﻿#include <cuda_runtime.h>
+```cuda
+#include <cuda_runtime.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
